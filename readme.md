@@ -1,4 +1,4 @@
-### Creaate Irving App
+### Create Irving App
 Easily scaffold a new Irving project.
 
 ### Quick Start
