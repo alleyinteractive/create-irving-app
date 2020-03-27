@@ -1,5 +1,10 @@
+const styledComponentsConfig = require('@irvingjs/styled');
+
 const config = {
   name: 'create-irving-app',
+  packages: [
+    styledComponentsConfig,
+  ],
   customizeServer: (app) => {
     console.log('middleware-ran');
     app.get(
@@ -23,7 +28,5 @@ const config = {
     return app;
   },
 };
-
-module.exports = config;
 
 module.exports = config;
