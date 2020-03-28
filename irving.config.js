@@ -1,6 +1,7 @@
+import styledComponentsConfig from '@irvingjs/styled';
+
 const config = {
   name: 'create-irving-app',
-  forceTrailingSlashes: true,
   packages: [
     styledComponentsConfig,
   ],
