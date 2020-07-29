@@ -6,9 +6,7 @@
   "scripts": {
     "dev": "irving dev",
     "build": "irving build",
-    "start": "irving start",
-    "styleguide:dev": "BABEL_ENV=app NODE_ENV=production npx styleguidist build --config ./config/styleguide.config.js",
-    "styleguide:build": "BABEL_ENV=app NODE_ENV=production npx styleguidist build --config ./config/styleguide.config.js"
+    "start": "irving start"
   },
   "repository": {
     "type": "git",
@@ -18,7 +16,6 @@
   "license": "ISC",
   "dependencies": {
     "@irvingjs/core": "^2.1.0",
-    "@irvingjs/styleguide": "^2.1.2",
-    "@irvingjs/styled": "^2.0.0"
+    "@irvingjs/styled-components": "^2.23.1"
   }
 }

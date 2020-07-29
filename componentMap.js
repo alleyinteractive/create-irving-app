@@ -1,9 +1,5 @@
-import Body from 'example-components/layouts/body';
-import Footer from 'example-components/layouts/footer';
-import Header from 'example-components/layouts/header';
+import ComponentMap from '@irvingjs/styled-components';
 
 export default {
-  body: Body,
-  footer: Footer,
-  header: Header,
+  ...ComponentMap({}),
 };
