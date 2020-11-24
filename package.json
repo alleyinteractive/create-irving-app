@@ -15,7 +15,9 @@
   "author": "Alley",
   "license": "ISC",
   "dependencies": {
-    "@irvingjs/core": "^2.1.0",
-    "@irvingjs/styled-components": "^2.23.1"
+    "@irvingjs/core": "^5.2.0",
+    "@irvingjs/integrations": "^5.2.0",
+    "@irvingjs/styled-components": "^5.2.0",
+    "@irvingjs/wordpress": "^5.2.0"
   }
 }
