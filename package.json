@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "irving dev",
     "build": "irving build",
-    "start": "irving start"
+    "start": "irving start",
+    "link-all": "npm install && npx irving link-all"
   },
   "repository": {
     "type": "git",
