@@ -16,7 +16,8 @@
   "license": "ISC",
   "dependencies": {
     "@irvingjs/core": "^5.2.0",
-    "@irvingjs/integrations": "^5.2.0",
+    "@irvingjs/integrations": "^5.2.1",
+    "@irvingjs/styled": "^5.2.0",
     "@irvingjs/styled-components": "^5.2.0",
     "@irvingjs/wordpress": "^5.2.0"
   }
