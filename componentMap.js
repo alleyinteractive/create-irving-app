@@ -1,10 +1,10 @@
 import createThemedComponentMap from '@irvingjs/styled-components/componentMap';
 import { componentMap as WordPressComponentMap } from '@irvingjs/wordpress';
 import { IntegrationsManager } from '@irvingjs/integrations';
-import themes from './themes';
+import themeMap from './themeMap';
 
 export default {
-  ...createThemedComponentMap(themes),
+  ...createThemedComponentMap(themeMap),
   ...WordPressComponentMap,
   'irving/integrations': IntegrationsManager,
 };
